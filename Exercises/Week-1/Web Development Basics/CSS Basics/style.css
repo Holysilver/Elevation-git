@@ -1,0 +1,22 @@
+span {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: lightseagreen;
+    display: inline-block;
+
+}
+#container {
+    width: 220px;
+    height: 135px;
+    background-color: lightgray;
+    box-shadow: 2px 2px 3px;
+}
+
+#second {
+    background-color: orange;
+}
+
+.button {
+    background-color: lightgreen;
+}
