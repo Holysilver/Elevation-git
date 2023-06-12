@@ -4,11 +4,11 @@ const wordCounts = {}
 
 
 const getLower = function(str){
-    return String(str).toLowerCase()
+    return str.toLowerCase()
 }
 
 const removeChars = function(str){
-    let editString = String(str)
+    let editString = str
     for( let ch of specialChars){
         editString = editString.replaceAll(ch, '')
     }
@@ -16,7 +16,7 @@ const removeChars = function(str){
 }
 
 const saveInfo = function(str){
-    for(let word of String(str).split(" ")){
+    for(let word of str.split(" ")){
         if (wordCounts[word] == undefined){
             wordCounts[word] = 1
         }else{
