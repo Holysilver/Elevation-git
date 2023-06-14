@@ -14,7 +14,8 @@
     background-color: blueviolet;
 }
 
-#Friends p{
+#friends p{
+    height: 20px;
     background-color: white;
     opacity: 40%;
 }
@@ -33,11 +34,17 @@
     background-color: blueviolet;
 }
 
-#input div {
+/* #input button {
     color: white;
     display: flex;
     align-items: center;
+    align-content: center;
     text-align: center;
+} */
+
+button{
+    background-color: purple;
+    color: white;
 }
 
 .text-container{
