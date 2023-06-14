@@ -127,28 +127,28 @@
 //   tipJar.stealCoins(10);
 //   console.log('Tip jar should have 8 coins: ' + tipJar.coinCount);
 
-/*Exercise 5 - NOT  IT YET*/ 
-// const revealSecret = function () {
-//     return secret;
-//   };
+/*Exercise 5*/ 
+const revealSecret = function () {
+    return this.secret;
+  };
   
-//   const shoutIt = function (person, func) {
-//     person.revealItAll = func;
-//     const result = person.revealItAll();
-//     alert(person.name + " said: " result);
-//   };
+  const shoutIt = function (person, func) {
+    person.revealItAll = func;
+    const result = person.revealItAll();
+    alert(person.name + " said: " + result);
+  };
   
-//   const avi = {
-//     name: "Avi"
-//     secret: "Im scared of snakes!"
-//   };
+  const avi = {
+    name: "Avi",
+    secret: "Im scared of snakes!"
+  };
   
-//   const narkis = {
-//     name: "Narkis"
-//     secret: "I dont have secrets because I'm zen like that."
-//   };
+  const narkis = {
+    name: "Narkis",
+    secret: "I dont have secrets because I'm zen like that."
+  };
   
-//   shoutIt(avi, revealSecret);
-//   shoutIt(narkis, revealSecret);
+  shoutIt(avi, revealSecret);
+  shoutIt(narkis, revealSecret);
 
   
