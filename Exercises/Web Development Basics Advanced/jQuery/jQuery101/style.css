@@ -1,0 +1,18 @@
+#b1.box {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+}
+#b2.box {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: purple;
+    display: inline-block;
+  }
