@@ -8,16 +8,11 @@ const Renderer = function() {
             const newPostLi = $(`<li>${post.name}: ${post.text}</li>`);
             postList.append(newPostLi);
         }
-        
-        return{
-            renderPosts,
-        }
-        
+    }
+
+    return{
+        renderPosts,
     }
 }
 
 
-const posts = Posts();
-const renderer = Renderer();
-
-renderer.renderPosts();
